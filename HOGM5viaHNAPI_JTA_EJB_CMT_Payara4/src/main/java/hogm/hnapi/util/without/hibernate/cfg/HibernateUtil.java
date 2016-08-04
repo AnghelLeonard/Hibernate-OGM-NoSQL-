@@ -27,7 +27,7 @@ public class HibernateUtil {
             StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
                     .applySetting(OgmProperties.ENABLED, true)
                     // assuming you are using JTATransactionFactory
-                    .applySetting(AvailableSettings.TRANSACTION_COORDINATOR_STRATEGY, "org.hibernate.transaction.JTATransactionFactory")
+                    .applySetting(AvailableSettings.TRANSACTION_COORDINATOR_STRATEGY, "org.hibernate.transaction.CMTTransactionFactory")
                     // configure current session context
                     .applySetting(AvailableSettings.CURRENT_SESSION_CONTEXT_CLASS, "jta")
                     // set JTA platform
