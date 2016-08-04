@@ -5,7 +5,7 @@
         <property name="hibernate.transaction.factory_class">org.hibernate.transaction.CMTTransactionFactory</property>   
         <property name="hibernate.transaction.jta.platform">org.hibernate.service.jta.platform.internal.SunOneJtaPlatform</property>
         <property name="hibernate.ogm.datastore.provider">mongodb</property>
-        <property name="hibernate.ogm.mongodb.database">glassfish_db</property>
+        <property name="hibernate.ogm.mongodb.database">payara_db</property>
         <property name="hibernate.ogm.datastore.grid_dialect">org.hibernate.ogm.dialect.mongodb.MongoDBDialect</property>
         <property name="hibernate.ogm.mongodb.host">127.0.0.1</property>
         <property name="hibernate.ogm.mongodb.port">27017</property>
