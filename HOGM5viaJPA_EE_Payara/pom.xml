@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javaee</groupId>
+  <artifactId>HOGM5viaJPA_EE_Payara</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  <name>HOGM5viaJPA_EE_Payara</name>
+  <modules>
+    <module>HOGM5viaJPA_EE_Payara-ear</module>
+    <module>HOGM5viaJPA_EE_Payara-web</module>
+    <module>HOGM5viaJPA_EE_Payara-ejb</module>
+  </modules>
+</project>
