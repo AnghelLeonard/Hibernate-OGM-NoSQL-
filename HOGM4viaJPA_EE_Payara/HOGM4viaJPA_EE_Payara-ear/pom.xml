@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+    <artifactId>HOGM4viaJPA_EE_Payara</artifactId>
+    <groupId>javaee</groupId>
+    <version>1.0</version>
+  </parent>
+
+    <groupId>javaee</groupId>
+    <artifactId>HOGM4viaJPA_EE_Payara-ear</artifactId>
+    <version>1.0</version>
+    <packaging>ear</packaging>
+
+    <name>HOGM4viaJPA_EE_Payara-ear</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>2.8</version>
+                <configuration>
+                    <version>6</version>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>javaee</groupId>
+            <artifactId>HOGM4viaJPA_EE_Payara-ejb</artifactId>
+            <version>1.0</version>
+            <type>ejb</type>
+        </dependency>
+        <dependency>
+            <groupId>javaee</groupId>
+            <artifactId>HOGM4viaJPA_EE_Payara-web</artifactId>
+            <version>1.0</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.ogm</groupId>
+            <artifactId>hibernate-ogm-core</artifactId>
+            <version>4.2.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.ogm</groupId>
+            <artifactId>hibernate-ogm-mongodb</artifactId>
+            <version>4.2.0.Final</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.antlr/antlr -->
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+    </dependencies>
+</project>
