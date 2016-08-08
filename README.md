@@ -25,3 +25,7 @@ This repo contains examples with Hibernate OGM for MongoDB:
 6. Hibernate OGM via Java Persistence API, JEE application under Payara 4
    - For Hibernate OGM 4.2.0 Final (app name: **HOGM4viaJPA_EE_Payara**) tested under Payara 4
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5viaJPA_EE_Payara**) tested under Payara 4
+    
+7. Hibernate OGM via Java Persistence API, RESOURCE_LOCAL under Tomcat
+   - For Hibernate OGM 4.2.0 Final (app name: **HOGM4viaJPA_RESOURCELOCAL_Tomcat8**) tested under Tomcat 8
+   - For Hibernate OGM 5.0.1.Final (app name: **HOGM5viaJPA_RESOURCELOCAL_Tomcat8**) tested under Tomcat 8   
