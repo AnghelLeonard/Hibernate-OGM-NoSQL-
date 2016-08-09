@@ -25,7 +25,7 @@ public class SHController {
     }
 
     @RequestMapping(value = "/storeln", method = RequestMethod.GET)
-    public String storeWithBatching() {
+    public String storeLN() {
 
         LuckyNumberEntity luckyNumberEntity = new LuckyNumberEntity();
         luckyNumberEntity.setLuckynumber(new Random().nextInt(1000000));
