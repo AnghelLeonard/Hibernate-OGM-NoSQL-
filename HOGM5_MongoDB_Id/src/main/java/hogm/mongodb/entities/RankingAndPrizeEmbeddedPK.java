@@ -32,4 +32,32 @@ public class RankingAndPrizeEmbeddedPK implements Serializable {
         this.prize = prize;
     }        
     
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 53 * hash + this.ranking;
+        hash = 53 * hash + Objects.hashCode(this.prize);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final RankingAndPrizeEmbeddedPK other = (RankingAndPrizeEmbeddedPK) obj;
+        if (this.ranking != other.ranking) {
+            return false;
+        }
+        if (!Objects.equals(this.prize, other.prize)) {
+            return false;
+        }
+        return true;
+    }
 }
