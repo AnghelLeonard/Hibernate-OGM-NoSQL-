@@ -37,3 +37,6 @@ This repo contains examples with Hibernate OGM for MongoDB:
 9. Hibernate OGM via Java Persistence API, standalone JTA,  JBoss Transactions
    - For Hibernate OGM 4.0.0.Beta2 (app name: **HOGM4viaJPAJTA_Tomcat8**) tested under Tomcat 8
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5viaJPAJTA_Tomcat8**) tested under Tomcat 8
+
+10. Hibernate OGM 5.0 with MongoDB - using identifiers
+   - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MongoDB_Id**) tested under Payara 4
