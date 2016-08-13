@@ -43,3 +43,6 @@ This repo contains examples with Hibernate OGM for MongoDB:
 
 11. Hibernate OGM 5.0 with MongoDB - using @OneToOne and @MapsId
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MongoDB_OTO_MapsId**) tested under Payara 4
+
+12. Hibernate OGM 5.0 with MongoDB - bidirectional @OneToOne
+   - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MongoDB_OTO**) tested under Payara 4
