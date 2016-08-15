@@ -50,3 +50,5 @@ This repo contains examples with Hibernate OGM for MongoDB:
 13. Hibernate OGM 5.0 with MongoDB - @OneToMany/@ManyToOne
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MongoDB_OTM**) tested under Payara 4
 
+14. Hibernate OGM 5.0 with MongoDB - @ManyToMany
+   - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MongoDB_MTM**) tested under Payara 4
