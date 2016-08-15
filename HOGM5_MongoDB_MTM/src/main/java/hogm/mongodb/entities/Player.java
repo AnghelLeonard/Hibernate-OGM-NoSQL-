@@ -41,7 +41,7 @@ public class Player implements Serializable {
     //        @JoinColumn(name="PLAYER_ID", referencedColumnName="id"),
     //    inverseJoinColumns=
     //        @JoinColumn(name="TOURNAMENT_ID", referencedColumnName="id"))
-    @ManyToMany(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY)
     Set<Tournament> tournaments = new HashSet<>();
 
     public String getName() {
