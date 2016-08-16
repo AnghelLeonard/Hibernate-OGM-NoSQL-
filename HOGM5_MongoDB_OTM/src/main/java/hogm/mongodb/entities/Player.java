@@ -35,7 +35,7 @@ public class Player implements Serializable {
     private Date birth;
     //@OneToMany(targetEntity=hogm.mongodb.entity.Photos.class, mappedBy = "player", cascade=CascadeType.ALL)   
     //private Collection photos;   
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "player", orphanRemoval="true")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "player", orphanRemoval=true)
     private Set<Photo> photos = new HashSet<>();
 
     public void addPhoto(Photo photo) {
