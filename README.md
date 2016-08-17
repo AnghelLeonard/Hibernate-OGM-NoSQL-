@@ -58,3 +58,6 @@ This repo contains examples with Hibernate OGM for MongoDB:
 
 16. Hibernate OGM 5.0 with MongoDB - @Version
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MONGODB_Version**) tested under Payara 4
+   
+17. Hibernate OGM 5.0 with MongoDB - @MappedSuperclass
+   - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MONGODB_MappedSuperclass**) tested under Payara 4
