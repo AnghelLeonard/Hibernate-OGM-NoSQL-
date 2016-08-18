@@ -62,7 +62,7 @@ This repo contains examples with Hibernate OGM for MongoDB:
 17. Hibernate OGM 5.0 with MongoDB - @MappedSuperclass
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MONGODB_MappedSuperclass**) tested under Payara 4
    
-18. Hibernate OGM 5.0 with MongoDB - @ManyToMany 
+18. Hibernate OGM 5.0 with MongoDB - @Access
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MONGODB_Access**) tested under Payara 4
 
    
