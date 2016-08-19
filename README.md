@@ -65,4 +65,7 @@ This repo contains examples with Hibernate OGM for MongoDB:
 18. Hibernate OGM 5.0 with MongoDB - @Access
    - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MONGODB_Access**) tested under Payara 4
 
-   
+19. Hibernate OGM 5.0 with MongoDB - Listeners
+   - For Hibernate OGM 5.0.1.Final (app name: **HOGM5_MONGODB_Listeners**) tested under Payara 4
+
+
